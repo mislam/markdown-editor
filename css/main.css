@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+.CodeMirror {
+}
+.output {
+	height: 300px;
+}
+.CodeMirror, #output {
+	width: 50%;
+	float: left;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Markdown Editor</title>
+	<link rel="stylesheet" href="lib/codemirror/codemirror.css" />
+	<link rel="stylesheet" href="lib/codemirror/theme/solarized.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+	<textarea id="code"># Markdown Editor
+
+I'm no good at writing sample / filler text, so go write something yourself.
+
+Look, a list!
+
+* foo
+* bar
+* baz</textarea>
+	<div id="output"></div>
+
+	<script src="lib/codemirror/codemirror.js"></script>
+	<script src="lib/codemirror/mode/markdown.js"></script>
+	<script src="lib/marked.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
